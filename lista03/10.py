@@ -6,3 +6,5 @@ sem_repeticao = []
 for n in lista_inteiros:
     if n not in sem_repeticao:
         sem_repeticao.append(n)
+
+print(sem_repeticao)
