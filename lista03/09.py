@@ -3,6 +3,8 @@
 lista1 = list(range(5, 100, 5))
 lista2 = list(range(3, 100, 3))
 
-lista_n = [n for n in lista1 if n in lista2 and n in lista1]
+def idem(umalista, outralista):
+    idem = [n for n in umalista if n in outralista]
+    return idem
 
-print(lista_n)
+print(idem(lista1, lista2))
