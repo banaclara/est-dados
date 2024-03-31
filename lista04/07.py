@@ -2,7 +2,8 @@
 
 vetor_int = [5, 5, 5, 10, 5, 10, 5, 76, 90, 90, 90, 10, 15, 5, 25, 37, 8, 82, 82, 54, 8, 48]
 
-def terceiro_maior(vetor):
+def terceiro_maior(lista):
+    vetor = lista[:]
     maior = vetor[0]
     for n in vetor:
         if n > maior:
